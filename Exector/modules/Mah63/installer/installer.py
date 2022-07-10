@@ -39,6 +39,7 @@ A=Fore.WHITE+" "
 h=Fore.GREEN+"uid="
 
 while True:
+	print("No program has been added yet.")
 	cmd_ins=[""," ","  ","   ","exit"]
 	f2=Fore.RED+"Exector/modules/installer"
 	sh2=input(q+e+r+t+w+g+s+f2+d+g+h+slah+"\n"+y+u+o+p+A)
