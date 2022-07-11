@@ -1,7 +1,8 @@
 # Exector
 Pentest software I developed. I will develop myself as a one-man team. It will be insufficient at first. Please point out errors :) 
 # Download and installation
-git clone https://github.com/C0derByM4H6301/ExectorProject.git && cd ExectorProject && bash build.sh
+git clone https://github.com/C0derByM4H6301/ExectorProject.git && cd ExectorProject && bash build.sh \n
+
 Devalopers: 
 https://github.com/C0derByM4H6301 
 
