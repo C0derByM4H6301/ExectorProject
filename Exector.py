@@ -98,12 +98,12 @@ while True:
         print(atime+" Command exected: 'whoami'")
         system("whoami")
     if sh=="help":
-        print("help: komutları listeler.")
-        print("exit: çıkmak.")
-        print("clear: terminali temizler.")
-        print("whoami: hangi kullanıcısın?")
-        print("modules: modülleri listeler.\nİki katagori var: Mah63 modules, Exector modules.")
-        print("use: modül kullanımını sağlar. Örnek: use Modülimi")
+        print("help: lists commands.")
+        print("exit: quit.")
+        print("clear: clears terminal.")
+        print("whoami: which user are you?")
+        print("modules: lists modules.\nThere are two categories: Mah 63 modules, Exector modules.")
+        print("use: enable module use. Example: use my_module")
     if sh=="modules":
         print(Fore.RED+"Modules:")
         print(Fore.BLUE+"Exector modules:")
