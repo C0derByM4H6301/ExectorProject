@@ -1,3 +1,0 @@
-"Added variable for time" -  Version 1.0
-"English language feature is coming" - Version 1.1
-"Updater software for Exector will be added." Version 1.2
