@@ -20,13 +20,13 @@ banner1="""
            .';;;:::;,,.x,
       ..'''.            0Xxoc:,.  ...           Author: Mah63
   ....                ,ONkc;,;cokOdc',.         Tool: Exector
- .                   OMo           ':ddo.       "Fizikselde zarar verene
-                    dMc               :OO;      siber alemde acımak yok!"
-                    0M.                 .:o.    Exector: Araçlar(Tools) kontrol
-                    ;Wd                         paneli. Alanında test edip, 
-                     ;XO,                       kullandığım yazılımlar 
-                       ,d0Odlc;,..              modül olarak eklenmiştir.
-                           ..',;:cdOOd::,.
+ .                   OMo           ':ddo.       "To those who physically harm
+                    dMc               :OO;      no pity in cyberspace!"
+                    0M.                 .:o.    Exector: Control Tools
+                    ;Wd                         panel. By testing it in the field, 
+                     ;XO,                       software i use added as a module.
+                       ,d0Odlc;,..              It is also available as a module in 
+                           ..',;:cdOOd::,.      the software I personally wrote.
                                     .:d;.':;.
                                        'd,  .'
                                          ;l   ..
