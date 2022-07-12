@@ -4,6 +4,7 @@ Pentest software I developed. I will develop myself as a one-man team. It will b
 '''
 
 git clone https://github.com/C0derByM4H6301/ExectorProject.git && cd ExectorProject/Exector/ && chmod 777 build.sh && bash build.sh 
+
 '''
 Devalopers: 
 https://github.com/C0derByM4H6301 
