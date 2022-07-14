@@ -3,7 +3,12 @@
 from os import *
 from time import *
 from colorama import *
+import sys
 init(autoreset=True)
+if sys.platform != "linux":
+       print("This only works on Linux systems for now")
+       sys.exit(1)
+
 banner="""
  _____               _
 | ____|_  _____  ___| |_ ___  _ __
