@@ -20,6 +20,6 @@ print(Style.BRIGHT+Fore.RED+banner)
 print(Fore.CYAN+"Coding By Mah:63")
 print(Fore.YELLOW+"https://github.com/C0derByM4H6301")
 system("chmod 777 updater_file/updater.sh")
-system("cd .. && mv updater_file/updater.sh . && rm -rf ExectorProject/ && bash updater.sh")
+system("cd .. && mv ExeectorProject/updater_file/updater.sh . && rm -rf ExectorProject/ && bash updater.sh")
 
 print(Fore.RED+"\n Bug found, please type terminal 'cd ..'")
