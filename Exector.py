@@ -43,7 +43,7 @@ banner1="""
 #print(Fore.GREEN+banner)
 #print(Fore.BLUE+banner1)
 #print(Fore.CYAN+"Coding By Mah63")
-komut=["exit","clear","whoami","help","modules","use","use toriptables3","use toriptables","use Toriptables3","use installer","use Installer"]
+komut=["exit","clear","whoami","help","modules","use","use toriptables3","use toriptables","use Toriptables3","use installer","use Installer","use cupp"]
 bos=[""," ","  ","   ","    "]
 tam=komut + bos
 #fonksiyon için boş yer
@@ -114,15 +114,16 @@ while True:
         print(Fore.RED+"Modules:")
         print(Fore.BLUE+"Exector modules:")
         print(Fore.WHITE+"Toriptables3: Anonomity tool.")
+        print(Fore.WHITE+"cupp: wordlist generetor.")
         print(Fore.YELLOW+"Mah63 modules:")
         print(Fore.WHITE+"Installer: it is intaller tool.")
     if sh=="use":
         print("modül kullanımını sağlar. Örnek: use toriptables3")
     if sh=="use toriptables" or sh=="use Toriptables3" or sh=="use toriptables3":
-        print("modülü yazz!!")
+        #print("modülü yazz!!")
         while True:
             f1=Fore.RED+"Exector/modules/toriptables3/"
-            sh1=input(q+e+r+t+w+g+s+f1+d+g+h+slah+"\n"+y+u+o+p+A)
+            sh1=input(q+e+r+t+w+g+s+f1+d+g+h+slah+y+j+Fore.BLUE+ctime+k+"\n"+y+u+o+p+A)
             if sh1=="exit":
                 exit("exiting...")
             #/modules/toriptables3  dizini
@@ -152,7 +153,21 @@ while True:
             	system("sudo python3 modules/toriptables3/toriptables3.py -r")
             if sh1=="ip":
             	system("sudo python3 modules/toriptables3/toriptables3.py -i")
-    if sh=="use installer" or sh=="Installer":
+    if sh=="use cupp":
+        while True:
+            f1=Fore.RED+"Exector/modules/cupp/"
+            sh2=input(q+e+r+t+w+g+s+f1+d+g+h+slah+y+j+Fore.BLUE+ctime+k+"\n"+y+u+o+p+A)
+            if sh2=="help":
+                print("help: it is help")
+                print("run: runing software")
+                print("install: wordlist install mod.")
+            if sh2=="run": 
+                system("python3 modules/cupp/cupp.py -i")
+            if sh2=="install":
+                system("python3 modules/cupp/cupp.py -l")
+            if sh2=="exit":
+                exit()
+    if sh=="use installer" or sh=="use Installer":
         echo_exec("python3 modules/Mah63/installer/installer.py")
         system("python3 modules/Mah63/installer/installer.py")
  
