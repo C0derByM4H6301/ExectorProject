@@ -37,10 +37,13 @@ o=Fore.BLUE+">"
 p=Fore.CYAN+">"
 A=Fore.WHITE+" "
 h=Fore.GREEN+"uid="
-
+panel="""
+1: Exec-Map = install 1 , install Exec-Map
+"""
+print(panel)
 while True:
-	print("No program has been added yet.")
-	cmd_ins=[""," ","  ","   ","exit"]
+	#print("No program has been added yet.")
+	cmd_ins=[""," ","  ","   ","exit","help","install","install 1","install Exec-Map"]
 	f2=Fore.RED+"Exector/modules/installer"
 	sh2=input(q+e+r+t+w+g+s+f2+d+g+h+slah+"\n"+y+u+o+p+A)
 	if sh2=="exit":
@@ -48,4 +51,13 @@ while True:
 	if not sh2 in cmd_ins:
 		print(Fore.RED+"hatalı komut: "+Fore.CYAN+sh2)
 	#https://github.com/SecureAuthCorp/impacket.git
-
+	#https://github.com/C0derByM4H6301/Exec-Map.git
+	if sh2=="help":
+		print("help: listing command")
+		print("install: install tool")
+		print("exit: quit")
+		print(panel)
+			
+	if sh2=="install 1" or sh2=="install Exec-Map":
+		print("installing Exec-Map")
+		system("git clone https://github.com/C0derByM4H6301/Exec-Map.git")
