@@ -10,12 +10,12 @@ if sys.platform != "linux":
        sys.exit(1)
 
 banner="""
- _____               _
-| ____|_  _____  ___| |_ ___  _ __
+ _____               _             "To those who physically harm
+| ____|_  _____  ___| |_ ___  _ __  no pity in cyberspace!"
 |  _| \ \/ / _ \/ __| __/ _ \| '__|
 | |___ >  <  __/ (__| || (_) | |
 |_____/_/\_\___|\___|\__\___/|_|
-V1.1 is coming!!"""
+Author: Mah63 | Tool: Exector"""
 
 banner1="""
 ..............
