@@ -54,14 +54,14 @@ def echo_exec(name):
     print(a+c+b+Fore.GREEN+" komut çalıştırıldı: "+Fore.CYAN+name)
 if getuid()!=0:
     slah=Fore.YELLOW+"$"
-    e=Fore.GREEN+"hacker"
+    e=Fore.WHITE+"hacker"
     print(Fore.GREEN+banner)
     print(Fore.CYAN+"Coding By Mah63"+Fore.WHITE+" | "+Fore.RED+"Standard Permissions")
 
 
 if getuid() ==0:
     slah=Fore.YELLOW+"#"
-    e=Fore.GREEN+"root"
+    e=Fore.WHITE+"root"
     print(Fore.BLUE+banner1)
     print(Fore.CYAN+"Coding By Mah63 "+Fore.WHITE+"| "+Fore.RED+"System God(root) Permissions")
 ##new func
