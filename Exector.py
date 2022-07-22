@@ -43,7 +43,7 @@ banner1="""
 #print(Fore.GREEN+banner)
 #print(Fore.BLUE+banner1)
 #print(Fore.CYAN+"Coding By Mah63")
-komut=["exit","clear","whoami","help","modules","use","use toriptables3","use toriptables","use Toriptables3","use installer","use Installer","use cupp"]
+komut=["exit","clear","whoami","help","modules","use","use toriptables3","use toriptables","use Toriptables3","use installer","use Installer","use cupp","info"]
 bos=[""," ","  ","   ","    "]
 tam=komut + bos
 #fonksiyon için boş yer
@@ -171,6 +171,9 @@ while True:
         echo_exec("python3 modules/Mah63/installer/installer.py")
         system("python3 modules/Mah63/installer/installer.py")
  
+    if sh=="info":
+              system("curl -s https://raw.githubusercontent.com/C0derByM4H6301/ExectorProject/main/config/info_exector.txt")
+              print("\n")
 
 else:
     exit("hata hata hata")
