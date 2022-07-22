@@ -110,6 +110,7 @@ while True:
         print("whoami: which user are you?")
         print("modules: lists modules.\nThere are two categories: Mah 63 modules, Exector modules.")
         print("use: enable module use. Example: use my_module")
+       print("info for Exector")
     if sh=="modules":
         print(Fore.RED+"Modules:")
         print(Fore.BLUE+"Exector modules:")
