@@ -92,7 +92,7 @@ while True:
     current_time = localtime()
     ctime = strftime('%H:%M:%S', current_time)
     atime=j+ctime+k
-    sh=input(q+e+r+t+w+g+s+f+d+g+h+slah+y+j+Fore.BLUE+ctime+k+"\n"+y+u+o+p+A)
+    sh=input(q+e+r+t+w+g+s+f+d+g+h+slah+g+j+Fore.BLUE+ctime+k+"\n"+y+u+o+p+A)
     if sh=="exit":
         print(j+ctime+k+" Exiting to system")
         exit(Fore.RED+"Goodbye!!!\n")
