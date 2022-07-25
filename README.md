@@ -12,4 +12,6 @@ Bug report email:
 mahcoder01@proton.me
 
 # Update to Exector
-"chmod 777 update.sh && ./update.sh"
+'''
+chmod 777 update.sh && ./update.sh
+'''
