@@ -43,7 +43,7 @@ banner1="""
 #print(Fore.GREEN+banner)
 #print(Fore.BLUE+banner1)
 #print(Fore.CYAN+"Coding By Mah63")
-komut=["exit","clear","whoami","help","modules","use","use toriptables3","use toriptables","use Toriptables3","use installer","use Installer","use cupp","info"]
+komut=["exit","clear","whoami","help","modules","use","use toriptables3","use toriptables","banner","use Toriptables3","use installer","use Installer","use cupp","info"]
 bos=[""," ","  ","   ","    "]
 tam=komut + bos
 #fonksiyon için boş yer
@@ -110,7 +110,8 @@ while True:
         print("whoami: which user are you?")
         print("modules: lists modules.\nThere are two categories: Mah 63 modules, Exector modules.")
         print("use: enable module use. Example: use my_module")
-        print("info for Exector")
+        print("info: info for Exector")
+        print("banner: echo banner")
     if sh=="modules":
         print(Fore.RED+"Modules:")
         print(Fore.BLUE+"Exector modules:")
@@ -177,7 +178,9 @@ while True:
               print("\n \nthe version you have")
               system("cat config/version.txt")
               print(Fore.CYAN+"if you don't have the current version please update")
+    if sh=="banner":
+       print(Fore.BLUE+banner1)
+    
               
-
 else:
     exit("hata hata hata")
