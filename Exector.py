@@ -74,7 +74,6 @@ print('[' + ctime + ']')
 while True:
     q=Fore.RED+"["
     w=Fore.RED+"]"
-    #e=Fore.GREEN+"Mahmut"
     r=Fore.YELLOW+"@"
     t=Fore.BLUE+"Exector"
     s=Fore.BLUE+"("
