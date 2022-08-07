@@ -4,6 +4,7 @@ from os import *
 from time import *
 from colorama import *
 import sys
+from lib import Exector
 init(autoreset=True)
 if sys.platform != "linux":
        print("This only works on Linux systems for now")
@@ -55,7 +56,8 @@ def echo_exec(name):
 if getuid()!=0:
     slah=Fore.YELLOW+"$"
     e=Fore.WHITE+"hacker"
-    print(Fore.GREEN+banner)
+    #print(Fore.GREEN+banner)
+    Exector.banner.banner2()
     print(Fore.CYAN+"Coding By Mah63"+Fore.WHITE+" | "+Fore.RED+"Standard Permissions")
 
 
