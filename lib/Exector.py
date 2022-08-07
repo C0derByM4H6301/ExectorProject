@@ -29,3 +29,5 @@ class banner:
         print(" | |  | | | | (_| |\ V /  __/  ___) | | | (__| | | | | |")
         sleep(0.7)
         print("|___| |_| |_|\__,_| \_/ \___| |____/|_|  \___|_| |_| |_|")
+        sleep(0.3)
+        print("Author: Mah63 | Tool: Exector")
