@@ -175,7 +175,7 @@ while True:
         system("python3 modules/Mah63/installer/installer.py")
  
     if sh=="info":
-              system("curl -s https://raw.githubusercontent.com/C0derByM4H6301/ExectorProject/main/config/info_exector.txt")
+              system("curl https://raw.githubusercontent.com/C0derByM4H6301/ExectorProject/main/config/info_exector.txt")
               print("\n \nthe version you have")
               system("cat config/version.txt")
               print(Fore.CYAN+"if you don't have the current version please update")
