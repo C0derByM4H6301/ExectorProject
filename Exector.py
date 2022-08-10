@@ -112,6 +112,7 @@ while True:
         print("use: enable module use. Example: use my_module")
         print("info: info for Exector")
         print("banner: echo banner")
+        print("hostname: ex.= hostname Exector")
     if sh=="modules":
         print(Fore.RED+"Modules:")
         print(Fore.BLUE+"Exector modules:")
