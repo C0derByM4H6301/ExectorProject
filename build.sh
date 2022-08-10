@@ -9,3 +9,4 @@ sudo apt install git -y
 sudo pip3 install colorama
 sudo pip3 install os
 sudo pip3 install time
+sudo apt-get install curl -y
