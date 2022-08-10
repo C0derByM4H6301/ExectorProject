@@ -71,13 +71,12 @@ current_time = localtime()
 ctime = strftime('%H:%M:%S', current_time)
 print('[' + ctime + ']') 
 #print(t("Happy hunting"))
-
+t=Fore.BLUE+"Exector"
 #print(slah)
 while True:
     q=Fore.RED+"["
     w=Fore.RED+"]"
     r=Fore.YELLOW+"@"
-    t=Fore.BLUE+"Exector"
     s=Fore.BLUE+"("
     d=Fore.BLUE+")"
     f=Fore.RED+"Exector/"
@@ -182,6 +181,7 @@ while True:
     if sh=="banner":
        print(Fore.BLUE+banner1)
     
-              
+    if sh[:9]=="hostname ":
+       t=Fore.BLUE+sh[9:]
 else:
     exit("hata hata hata")
