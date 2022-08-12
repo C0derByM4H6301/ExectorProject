@@ -11,7 +11,7 @@ https://github.com/C0derByM4H6301
 Bug report email: 
 mahcoder01@proton.me
 
-# Update to Exector
+# Update to Exector:
 
 chmod 777 update.sh && ./update.sh
 
